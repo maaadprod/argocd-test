@@ -1259,6 +1259,7 @@ kube-state-metrics:
 ##
 nodeExporter:
   enabled: true
+  hostRootfs: false
 
   ## Use the value configured in prometheus-node-exporter.podLabels
   ##
