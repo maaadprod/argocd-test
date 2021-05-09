@@ -52,7 +52,6 @@ clusterDomain: cluster.local
 ##
 commonAnnotations: {}
 
-
 ## Use an alternate scheduler, e.g. "stork".
 ## ref: https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
 ##
@@ -72,7 +71,7 @@ auth:
   ## Enable authentication
   ## ref: https://docs.mongodb.com/manual/tutorial/enable-authentication/
   ##
-  enabled: true
+  enabled: false
   ## MongoDB(R) root password
   ## ref: https://github.com/bitnami/bitnami-docker-mongodb/blob/master/README.md#setting-the-root-password-on-first-run
   ##
